@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Getting started</Title>
+<link href="bootstrap.css" rel="stylesheet" media="screen">
+</HEAD>
+<BODY>
+<h2>Configuration dialog</h2>
+<hr/>
+<h4>General</h4>
+<ul>
+<li><b>Sample Display Size:</b> The display dimension of each sample. Use small values to display lots on screen at once.</li>
+<li><b>Sample Font:</b> The font to use for displaying sample names.</li>
+<li><b>Always on top:</b> Force Aural Probe to stay on top of other applications, even when not in focus. Useful for multiple drag-and-drop operations.</li>
+<li><b>Minimize to system tray:</b> Adds an Aural Probe icon to the notification area and hides the application from the taskbar when minimized.</li>
+<li><b>Prompt when rescanning folders:</b> When checked, Aural Probe will always prompt the user for confirmation before scanning search folders. If you have a small sample collection, you may want to disable this.</li>
+<li><b>Include file paths when searching:</b> When checked, Aural Probe will use file paths as well as file names to match search criteria. For example, the sample "C:\Samples\Kicks\01.wav" would only match the search term "kick" if this is checked.</li>
+<li><b>Autoplay:</b> When checked, Aural Probe will auto-play samples sequentially, repeating them a specified number of times before advancing to the next sample. Playback can be stopped at any time by pressing "Stop" in the menu bar.</li>
+</ul>
+<hr/>
+<h4>Categories</h4>
+<ul>
+<li><b>Categories list:</b> Displays a list of categories, along with their search criteria. Click one to modify it.</li>
+<li><b>Name:</b> The category name. Can be used to create new categories, or update existing categories.</li>
+<li><b>Search criteria:</b> The category search criteria. Case insensitive. Separate search terms with commas, for example: "kick,bd,bassdrum,bass drum"</li>
+<li><b>Use regular expressions:</b> Should the search criteria use regular expressions? In this case there is only one search term. Case insensitive.<br/>Examples:<br/>".ogg$" would match all samples ending in .ogg<br/>"k(i)*ck[0-9]+" would match kck0, kick10, kick999 but not kck_9 or kickdrum<br/>For full syntax visit: <a href="https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx">https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx</a></li>
+<li><b>&uarr;:</b> Move the selected category up in the category list.</li>
+<li><b>&darr;:</b> Move the selected category down in the category list.</li>
+<li><b>Insert:</b> Insert a new category into the category list with the current category name and search criteria.</li>
+<li><b>Replace:</b> Replace the existing category in the category list with the current search criteria.</li>
+<li><b>Delete:</b> Delete the existing category in the category list.</li>
+</ul>
+<hr/>
+<h4>Search folders</h4>
+A list of all folders to search. Can be one or more local or network folder paths, one per line, for example:
+<pre>C:\Samples<br/>E:\DrumSamples<br/>\\music\samples</pre>
+<hr/>
+<h4>Default favorites folder</h4>
+The default folder to save Aural Probe favorites. Can be left blank.
+<hr/>
+<h4>File types</h4>
+A list of sample file types to include. Uncheck boxes to exclude samples of that file type.
+<hr/>
+<h4>Sound output</h4>
+The sound playback device. Useful for musicians who often have multiple playback devices.
+</BODY>
+</HTML>

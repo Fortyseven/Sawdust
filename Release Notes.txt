@@ -1,0 +1,57 @@
+-----------------------------------------------------------------------------
+Aural Probe Release Notes
+-----------------------------------------------------------------------------
+
+2019-10-26 Version 1.51:
+
+- Added sample font config option.
+- Added minimize to system tray config option.
+- Show project name first in application title.
+- Updated source code for Visual Studio 2017.
+- Improved installer pipeline.
+
+2015-07-21 Version 1.5:
+
+- Added full multi-select support for samples.
+- Added regular expression support for categories. For syntax please visit:
+  https://msdn.microsoft.com/en-us/library/az24scfc(v=vs.110).aspx
+- Added right-click pop-up option to delete samples (with confirmation dialog).
+- Added ability to reorder categories up/down in configuration dialog.
+- Save config + cache files to Application Data folder. Results in better
+  support for non-administrator accounts.
+- Fixed status bar text hiding the important part of long sample paths.
+- Added support for spaces in search criteria.
+- Display volume slider as dB Full Scale rather than percentage.
+
+2013-09-01 Version 1.45:
+
+- Maintenance and bugfix release.
+- Updated source code for Visual Studio 2010.
+- Updated FMOD API to version 4.44.20.
+- Updated NSIS installer and scripts to version 3.0a1.
+- Replaced help with more detailed CHM documentation using HTML Help Workshop 4.74.8702.
+- Fixed FMOD memory leak.
+- Fixed cross-thread UI control modification issues.
+- Better handling of corrupt/missing/unplayable samples.
+- Better handling of duplicate/overlapping search folders.
+- Ignore all hidden and invalid folders when searching in search folders.
+- Added keyboard shortcut for popup menu item "Copy as path" (Ctrl+Shift+C).
+- Faster playback for very large files.
+- Installer bugfixes relating to Windows Vista/7/8.
+- Cancel button while scanning folders no longer hangs.
+- Better UI feedback at the beginning of a large scanning folders operation.
+
+2008-06-05 Version 1.44:
+
+- Updated contact email.
+- Added always-on-top config option.
+- Added drag + drop support for samples.
+- Prevent exception on accessing "System Volume Information" folder.
+
+2006-12-07 Version 1.41:
+
+- Initial public release.
+
+-----------------------------------------------------------------------------
+http://auralprobe.sourceforge.net
+-----------------------------------------------------------------------------

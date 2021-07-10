@@ -1,0 +1,12 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Aural Probe documentation.chm
+Contents file=Table of Contents.hhc
+Default topic=Introduction.htm
+Display compile progress=No
+Language=0xc09 English (Australia)
+Title=Aural Probe
+
+
+[INFOTYPES]
+
